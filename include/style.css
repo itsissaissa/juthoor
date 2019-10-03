@@ -1,0 +1,195 @@
+body {
+	font-family: 'droid arabic kufi', 'droid sans', "helvetica neue", helvetica, arial, sans-serif;
+	color: #000;
+	background-color: #fefefe;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	color: #000;
+}
+
+.h1 .small, .h1 small, .h2 .small, .h2 small, .h3 .small, .h3 small, .h4 .small, .h4 small, .h5 .small, .h5 small, .h6 .small, .h6 small, h1 .small, h1 small, h2 .small, h2 small, h3 .small, h3 small, h4 .small, h4 small, h5 .small, h5 small, h6 .small, h6 small {
+	color: #777
+}
+
+.selected, .selected > a {
+	color: #000;
+	font-weight: bold;
+}
+
+.neutral, .breadcrumb {
+	background-color: #fff9e6;;
+}
+
+.male, .male > a, .ui-widget-content .male > a {
+	/* color: #407f7f; */
+	color: #EE4227;
+}
+
+.female, .female > a, .ui-widget-content .female > a {
+	/*color: #664b8e;*/
+	color: #274F9F;
+}
+
+.father {
+	/* background-color: #bcefef; */
+	background-color: #FFBFAD;
+}
+
+.mother {
+	/* background-color: #ddcbff; */
+	background-color: #9AB9F5;
+}
+
+.fatherfather {
+	border: 5px solid #FFBFAD;
+	background-color: #FFAE9C;
+}
+
+.fathermother {
+	border: 5px solid #FFBFAD;
+	background-color: #89A8E4;
+}
+
+.motherfather {
+	border: 5px solid #9AB9F5;
+	background-color: #FFAE9C;
+}
+
+.mothermother {
+	border: 5px solid #9AB9F5;
+	background-color: #89A8E4;
+}
+
+a, .link, #accordion .ui-accordion-content a > li {
+	color: #e9ba25;
+	text-decoration: none;
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	background-color: #e9ba25;
+}
+
+a:not([aria-selected="true"]):hover, a:not([aria-selected="true"]):focus, #accordion .ui-accordion-content span > a:hover {
+	color: #af880b;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.ui-state-active > .hideoncollapsed {
+	display: block;
+}
+
+ul.nav > li > a:hover, ul.nav > li > a:focus {
+	background-color: #fff0c0;
+	color: #af880b;
+	text-decoration: none;
+	font-style: italic;
+}
+
+.padded {
+	padding-bottom: 3%;
+}
+
+#accordion {
+	font-family: 'droid arabic kufi', sans-serif;
+}
+
+#accordion .ui-accordion-header {
+	background-color: #fefefe;
+	padding-top: 15px;
+    padding-bottom: 15px;
+	background-image: linear-gradient(to bottom, #fff9e6, #fff9e6);
+}
+
+#accordion .ui-accordion-header:hover[aria-selected="false"], #accordion .ui-accordion-header:focus[aria-selected="false"] {
+	background-image: linear-gradient(to bottom, #fff0c0, #fff0c0);
+}
+
+#accordion .ui-accordion-header:hover[aria-selected="false"] a, #accordion .ui-accordion-header:focus[aria-selected="false"] a {
+	color: #af880b;
+	text-decoration: none;
+	font-style: italic;
+}
+
+#accordion .ui-accordion-header[aria-selected="true"] {
+	background-image: linear-gradient(to bottom, #fff, #fff);
+}
+
+#accordion .ui-accordion-header[aria-selected="true"] a {
+	display: block;
+	font-size: 16pt;
+	width: 100%;
+	text-indent: 10px;
+	color: #000;
+	text-decoration: none;
+	font-style: none;
+}
+
+#accordion .ui-accordion-header[aria-selected="true"] a {
+	font-style: none;
+}
+
+#accordion .ui-accordion-content {
+	width: 100%;
+	background-color: #fefefe;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	border-top: none;
+}
+
+#accordion .ui-accordion-content > * {
+	margin: 0;
+}
+
+#accordion .ui-accordion-header:first-of-type {
+	
+}
+
+#accordion .ui-accordion-header:first-of-type a {
+	font-size: 24pt;
+}
+
+#accordion .ui-accordion-header {
+	margin-top: 1%;
+}
+
+#accordion .ui-accordion-header:nth-of-type(2) {
+	margin-top: 5%;
+}
+
+@media (max-width: 480px) {
+    #tree {
+        top: 50%; /* IMPORTANT */
+        right: 50%; /* IMPORTANT */
+	}
+}
+
+.ui-autocomplete-category {
+	/*padding: .2em .4em;*/
+	margin: .8em 0 .2em;
+	line-height: 1.5;
+}
+
+.ui-menu .ui-menu-item
+{
+	padding: 5px 10px 5px 0px;	
+}
+
+.ui-autocomplete {
+	max-height: 200px;
+	overflow-y: auto;
+	/* prevent horizontal scrollbar */
+	overflow-x: hidden;
+}
+	/* IE 6 doesn't support max-height
+	* we use height instead, but this forces the menu to always be this tall
+	*/
+* html .ui-autocomplete {
+	height: 200px;
+}
+
+.ui-autocomplete {
+	font-family: 'droid arabic kufi', "helvetica neue", helvetica, arial, sans-serif;
+}
