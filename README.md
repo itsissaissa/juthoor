@@ -1,5 +1,5 @@
 # Juthoor
-## A bilingual Muslim family tree engine
+## A bilingual Islamic family tree engine
 
 ### [Demo (Arabic)](http://issaissa.net/juthoor/) / [Demo (English)](http://issaissa.net/juthooren/)
 
